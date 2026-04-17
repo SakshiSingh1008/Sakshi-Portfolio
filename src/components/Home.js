@@ -34,14 +34,27 @@ function Home() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1 }}
             >
-                <h2>Hey, I'm <span style={{ color: "#b74b4b" }}>Sakshi</span></h2>
-                <h1>I'm a <span style={{ color: "#b74b4b" }}>Developer</span></h1>
-                <p>
-                    Passionate <strong style={{ color: "#b74b4b" }}>Frontend Developer</strong> specializing in 
-                    <strong style={{ color: "#b74b4b" }}> React, JavaScript, and UI/UX Design.</strong> 
-                    I build interactive, responsive, and user-friendly web applications.
-                    Always excited to learn new technologies and take on challenges!
-                </p>
+               <h2>
+  Hey, I'm <span style={{ color: "#b74b4b" }}>Sakshi</span>
+</h2>
+
+<h1>
+  I'm a <span style={{ color: "#b74b4b" }}>Frontend Developer</span>
+</h1>
+
+<p>
+  Developer focused on building fast, responsive, and user-friendly web applications using
+  <strong style={{ color: "#b74b4b" }}> React, JavaScript, and modern UI practices.</strong>
+</p>
+
+<p>
+  I enjoy turning ideas into interactive digital experiences with clean design, smooth performance,
+  and scalable code architecture.
+</p>
+
+<p>
+  Always learning, building, and improving through real-world projects and hands-on development.
+</p>
 
                 {/* Social Icons */}
                 <motion.div 
@@ -66,14 +79,7 @@ function Home() {
                             whileHover={{ scale: 1.2 }}
                         />
                     </a>
-                    <a href="https://leetcode.com/u/itz_sak_2052/" target="_blank" rel="noopener noreferrer">
-                        <motion.img 
-                            src={myImage3} 
-                            alt="Leetcode"
-                            style={{ width: "40px", height: "40px" }}
-                            whileHover={{ scale: 1.2 }}
-                        />
-                    </a>
+                  
                 </motion.div>
 
                 {/* Download CV Button */}
@@ -83,7 +89,7 @@ function Home() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 1 }}
                 >
-                    <a href="src/components/Sakshi Singh resume.pdf" download="Sakshi_Singh_Resume.pdf">
+                    <a href="src\components\Sakshi Ui.pdf_page-0001.jpg" download="Sakshi_Singh_Resume.pdf">
                         <motion.button
                             style={{
                                 width: "200px",

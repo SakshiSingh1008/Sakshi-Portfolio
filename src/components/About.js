@@ -69,20 +69,27 @@ function About() {
                         About Me
                     </h1>
                     <p style={{ color: "#b74b4b" }}>
-                        Hi, I'm <strong>Sakshi Singh</strong>, a passionate and detail-oriented 
-                        Frontend Developer with a foundation in backend frameworks, API development, 
-                        databases, and Git version control.
-                    </p>
-                    <p style={{ color: "#b74b4b" }}>
-                        Currently pursuing a <strong>Bachelor of Engineering</strong> in Computer Engineering 
-                        at Shree L. R. Tiwari College of Engineering, I thrive on solving complex problems 
-                        and building intuitive, user-friendly applications.
-                    </p>
-                    <p style={{ color: "#b74b4b" }}>
-                        I have experience working on diverse projects, including 
-                        <strong> real-time chat applications, music streaming platforms, OTT apps, 
-                        and personal task managers.</strong>
-                    </p>
+  Hi, I'm <strong>Sakshi Singh</strong>, a frontend developer who focuses on building
+  scalable, responsive, and performance-driven web applications using modern JavaScript
+  frameworks.
+</p>
+
+<p style={{ color: "#b74b4b" }}>
+  I am currently pursuing a Bachelor of Engineering in Computer Engineering at
+  Shree L. R. Tiwari College of Engineering. My core interest lies in frontend development,
+  system design fundamentals, and building real-world applications.
+</p>
+
+<p style={{ color: "#b74b4b" }}>
+  I have worked on projects such as real-time chat applications, e-commerce platforms,
+  streaming applications, and task management systems. These projects helped me strengthen
+  my understanding of APIs, state management, and frontend architecture.
+</p>
+
+<p style={{ color: "#b74b4b" }}>
+  Along with development, I also pay attention to building clean and usable interfaces
+  to ensure a better user experience.
+</p>
 
                     {/* ✅ Scrolls to Contact Section when clicked */}
                     <Link to="contact" smooth={true} duration={500}>

@@ -19,32 +19,58 @@ function Project() {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
-    const projects = [
-        {
-            title: "Real-Time Chat Application",
-            description: "Built using Socket.io, React, Node.js, and Postman API to enable instant messaging with real-time updates.",
-            tech: "Socket.io, React, Node.js, Postman API",
-            link: "https://github.com/SakshiSingh1008/Chat-app"
-        },
-        {
-            title: "Multi-Vendor E-Commerce Website",
-            description: "A platform where multiple sellers can list and manage their products, providing customers with a seamless buying experience.",
-            tech: "React.js, Node.js, Express.js, MongoDB, Stripe",
-            link: ""
-        },
-        {
-            title: "Twitter Clone",
-            description: "A social media platform where users can post tweets, like, and interact with others, built using React.js and Tailwind CSS.",
-            tech: "React.js, Tailwind CSS",
-            link: "https://github.com/SakshiSingh1008/Twitter-Clone"
-        },
-        {
-            title: "Streaming Website",
-            description: "A streaming website built with Dart and Flutter, allowing users to browse and stream videos with authentication and search.",
-            tech: "Dart, Flutter, Firebase, AWS",
-            link: "https://github.com/SakshiSingh1008/ott_photo_play_app"
-        }
-    ];
+    
+     const projects = [
+    {
+        title: "Canvas Drawing Tool (Konva.js)",
+        description: "Interactive canvas-based UI tool with shape creation, freehand drawing, color customization, and export functionality. Focused on building interaction-based UI systems.",
+        tech: "React.js, Konva.js, Canvas API",
+        link: "https://github.com/SakshiSingh1008/Sakshi-konvajs"
+    },
+    {
+        title: "AI CRM Dashboard",
+        description: "A smart CRM system to manage leads and customer interactions with structured UI and AI-based insights for better workflow management.",
+        tech: "React.js, Node.js, UI/UX Design",
+        link: "https://github.com/SakshiSingh1008/AI-CRM-HCP-Module.git"
+    },
+    {
+        title: "Real-Time Chat Application",
+        description: "Built using Socket.io for real-time messaging with instant updates and responsive UI experience.",
+        tech: "Socket.io, React, Node.js",
+        link: "https://github.com/SakshiSingh1008/Chat-app"
+    },
+    {
+        title: "Multi-Vendor E-Commerce Platform",
+        description: "A scalable e-commerce system allowing multiple sellers to list products and users to browse and purchase seamlessly.",
+        tech: "React.js, Node.js, MongoDB",
+        link: "https://github.com/SakshiSingh1008/farmers-ecommerce.git"
+    },
+    {
+        title: "Twitter Clone UI",
+        description: "A social media UI clone with post creation, likes, and interaction system built using modern frontend practices.",
+        tech: "React.js, Tailwind CSS",
+        link: "https://github.com/SakshiSingh1008/Twitter-Clone"
+    },
+    {
+        title: "Streaming App (Flutter)",
+        description: "A video streaming application with authentication, browsing, and search functionality built using Flutter and Firebase.",
+        tech: "Flutter, Firebase, Dart",
+        link: "https://github.com/SakshiSingh1008/ott_photo_play_app"
+    },
+    {
+    title: "Jira-like Task Manager (Kanban Board)",
+    description: "A task management system inspired by Jira with drag-and-drop style workflow structure. Users can create, track, and manage tasks across different stages like Todo, In Progress, and Done.",
+    tech: "React.js, DnD Kit / Drag & Drop, State Management",
+    link: "https://github.com/SakshiSingh1008/Jira-task-manager.git"
+},
+{
+  title: "Jobify (Job Tracking Platform)",
+  description: "A job tracking application that helps users manage their job applications across different stages like Applied, Interviewing, Offer, and Rejected. Built with a clean dashboard UI to track progress efficiently.",
+  tech: "React.js, Context API / Redux, LocalStorage, CRUD Operations",
+  link: "https://github.com/SakshiSingh1008/Jobify.git"
+}
+];
+    
 
     return (
         <div id="projects" style={{ padding: "50px 5%",  textAlign: "center" }}>

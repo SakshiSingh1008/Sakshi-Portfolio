@@ -1,18 +1,25 @@
 import { motion } from "framer-motion";
 
 function Skills() {
-    const skills = [
-        { name: "HTML", level: "90%" },
-        { name: "CSS", level: "85%" },
-        { name: "JavaScript", level: "80%" },
-        { name: "React.js", level: "75%" },
-        { name: "Node.js", level: "70%" },
-        { name: "Flutter", level: "65%" },
-        { name: "Git", level: "85%" },
-        { name: "Database (SQL & NoSQL)", level: "80%" },
-        { name: "UI/UX Design", level: "75%" },
-        { name: "Cloud Computing", level: "70%" },
-    ];
+  const skills = [
+    { name: "HTML", level: "90%" },
+    { name: "CSS", level: "85%" },
+    { name: "JavaScript", level: "80%" },
+    { name: "React.js", level: "75%" },
+
+    { name: "UI/UX Design", level: "80%" },
+    { name: "Design Thinking", level: "75%" },
+    { name: "Wireframing", level: "70%" },
+    { name: "Prototyping", level: "70%" },
+    { name: "Interaction Design", level: "75%" },
+    { name: "Component-Based UI", level: "80%" },
+
+    { name: "Node.js", level: "70%" },
+    { name: "Git", level: "85%" },
+    { name: "Database (SQL & NoSQL)", level: "80%" },
+    { name: "Flutter", level: "65%" },
+    { name: "Cloud Computing", level: "70%" }
+];
 
     return (
         <div id="skills" style={{ textAlign: "center", padding: "50px", background: "transparent" }}>
