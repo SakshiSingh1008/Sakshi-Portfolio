@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Image from "./WhatsApp Image 2025-02-19 at 11.27.37.jpeg";
 import myImage1 from "./icons8-linkedin-50.png";
 import myImage2 from "./icons8-github-logo-64.png";
-import myImage3 from "./icons8-level-up-your-coding-skills-and-quickly-land-a-job-24.png";
+
 
 function Home() {
     return (
